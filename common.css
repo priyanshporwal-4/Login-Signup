@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Blueberry;
+    src: url(font/Blueberry_Regular.otf);
+}
+:root {
+    --color-body: #F2A5FF;
+    
+}
+body {
+    height: 110vh;
+    background-image: url(img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--color-body);
+    
+}
+.container {
+    position: relative;
+}
+h1 {
+    font-family: Blueberry;
+    margin-left: 100px;
+    color: #DB00FF;
+}
+h2 {
+    font-family: Blueberry;
+    margin-left: 100px;
+    color: #DB00FF;
+    
+}
+.parent-container {
+    position: sticky;
+}
+
+.parent-div {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.form-div {
+
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: -18px 20px 30px 0px rgba(234, 234, 234, 0.25);
+    color: #DB00FF;
+    position: absolute;
+}
+
+.input-field {
+    border: 2px;
+    padding: 15px;
+    min-width: 50%;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border-style:  dashed;
+    border-color: #F2A5FF;
+    color: #DB00FF;
+}
+
+.rotate {
+    width: 350px;
+    height: 640px;
+    transform: rotate(9deg);
+    border-radius: 20px;
+    background: #DB00FF;
+    box-shadow: -10px 6px 17px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+button {
+    border: 2px;
+    background-color: #F2A5FF;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 15px;
+    color: #DB00FF;
+    font-family: Blueberry;
+}
+p {
+    background-color: #F2A5FF;
+    padding: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+    word-spacing: 5px;
+    width: 100%;
+    color: #7a118a;
+    font-family: Blueberry;
+}
+button:hover{
+    background-color: #7a118a;
+}
+.input-field:hover {
+    background-color: #f5bbff;
+}
+h1:hover {
+    color: whitesmoke;
+}
+
+.rotate:hover {
+    transform: rotate(-9deg);
+    transition: 2000ms;
+}
+
+
+
+
